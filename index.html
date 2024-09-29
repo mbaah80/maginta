@@ -33,6 +33,11 @@
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <link rel="stylesheet" type="text/css" href="assets/css/realestate-styles.css">
     <link rel="stylesheet" type="text/css" href="assets/css/realestate-footer.css">
+    <!-- Calendly badge widget begin -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+    <!-- Calendly badge widget end -->
 </head>
 
 <body id="realestate-content">
@@ -109,10 +114,11 @@
                             class="realestate-navigation-quick realestate-submission-btn-container d-none d-lg-flex align-items-center">
 
                             <div class="realestate-navigation-quick realestate-user-menu-container">
-                                <a href="#" class="realestate-filled-btn realestate-submission-btn">
-                                    Shedule a vsit
+                                <a href="#" class="realestate-filled-btn realestate-submission-btn" onclick="Calendly.initPopupWidget({ url: 'https://calendly.com/mbaah80' }); return false;">
+                                    Schedule a Visit
                                 </a>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -198,7 +204,7 @@
                                     <p>To deliver exceptional value through innovative design, sustainable practices, and a commitment to quality, ensuring long-term success for our clients, partners, and the environment.</p>
                                 </div>
                                 <div class="real-estate-banner-btn-style3">
-                                    <a href="#">Schedule an Appointment</a>
+                                    <a href="#"  onclick="Calendly.initPopupWidget({ url: 'https://calendly.com/mbaah80' }); return false;">Schedule an Appointment</a>
                                 </div>
                             </div>
                         </div>
@@ -927,7 +933,5 @@
     <!-- loop style 1 -->
     <script src="assets/js/loop/property/style1.js"></script>
 </body>
-
-<!-- Mirrored from html.demowp.io/realestatepro/realestate-html/11-home-single-project.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Sep 2024 18:04:13 GMT -->
 
 </html>
